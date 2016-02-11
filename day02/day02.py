@@ -2,7 +2,7 @@ import csv
 
 dimensions = []
 
-with open('day2.txt','r') as inputfile:
+with open('day02.txt','r') as inputfile:
     for row in csv.reader(inputfile):
         for a in row:
             b = [int(n) for n in a.split('x')]
