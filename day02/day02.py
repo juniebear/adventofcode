@@ -7,7 +7,6 @@ with open('day02.txt','r') as inputfile:
         for a in row:
             b = [int(n) for n in a.split('x')]
         dimensions.append(b) 
-print dimensions
 
 def calc_total_wrapping(dimensions):
     totalpaper = 0 
